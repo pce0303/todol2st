@@ -1,24 +1,5 @@
 .App {
   text-align: center;
-<<<<<<< HEAD
-=======
-  width: 30rem;
-  margin: 0 auto;
-  padding: 1rem;
-  background-color: beige;
-}
-
-
-.todo-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-/* .App {
-  text-align: center;
->>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
 }
 
 .todo-container {
@@ -26,20 +7,13 @@
   margin: 1.25rem auto;
   padding: 1.25rem;
   max-width: 25rem;
-<<<<<<< HEAD
   border: 0.1px solid #ccc;
   display: flex;
-=======
->>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
 }
 
 h1 {
   font-size: 1.5rem;
-<<<<<<< HEAD
   margin-top: 10rem;
-=======
-  margin: 0;
->>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
 }
 
 .todoList-container {
@@ -48,16 +22,10 @@ h1 {
   border: 1px solid #ddd;
   border-radius: 0.5rem;
   margin: 0.625rem 0;
-<<<<<<< HEAD
 }
 
 li {
   list-style-type: none;
-=======
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
->>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
 }
 
 button {
@@ -67,10 +35,6 @@ button {
   border-radius: 0.25rem;
   padding: 0.3125rem 0.625rem;
   cursor: pointer;
-<<<<<<< HEAD
-=======
-  margin-right: 0.3125rem;
->>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
 }
 
 button:hover {
@@ -79,11 +43,7 @@ button:hover {
 }
 
 p {
-<<<<<<< HEAD
   margin: auto;
-=======
-  margin: 0;
->>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
 }
 
 .button-container {
@@ -115,7 +75,6 @@ input {
 
 input:focus {
   outline: none;
-<<<<<<< HEAD
 }
 
 #updateTodo {
@@ -129,6 +88,3 @@ input:focus {
   white-space: nowrap;
   margin: 0;
 }
-=======
-} */
->>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
