@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.todo-container {
+  border-radius: 0.5rem;
+  margin: 1.25rem auto;
+  padding: 1.25rem;
+  max-width: 25rem;
+  border: 0.1px solid #ccc;
+  display: flex;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 10rem;
+}
+
+.todoList-container {
+  list-style: none;
+  padding: 0.625rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  margin: 0.625rem 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  background-color: #262223;
+  color: #DDC6B6;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.3125rem 0.625rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #DDC6B6;
+  color: #262223;
+}
+
+p {
+  margin: auto;
+}
+
+.button-container {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.createTodo {
+  margin-top: 1.25rem;
+}
+
+.createTodo button {
+  margin-right: auto;
+}
+
+form {
+  display: flex;
+  gap: 0.625rem;
+}
+
+input {
+  margin-left: auto;
+  padding: 0.3125rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  width: 25rem;
+  height: 1.5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+#updateTodo {
+  width: 250px;
+  height: 20px;
+  border: none;
+}
+
+#save, #cancel {
+  height:25px;
+  white-space: nowrap;
+  margin: 0;
+}
