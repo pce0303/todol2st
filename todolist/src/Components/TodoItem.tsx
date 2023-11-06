@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import { Task } from "./TodoList";
 
+=======
+>>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
 interface TodoItemProps {
   id:number;
   text:string;
   completed:boolean;
   onClickDelete(id:number): void;
+<<<<<<< HEAD
   onClickUpdate(updated: Task): void;
 }
 
@@ -63,3 +67,21 @@ export default function TodoItem ({id, text, completed, onClickDelete, onClickUp
     </div>
   );
 }
+=======
+}
+
+const TodoItem = ({id, text, completed, onClickDelete}:TodoItemProps) => {
+  return (
+    <li className="todo-container">
+      {completed ? <button>완료됨</button> : <button>완료하기</button>}
+      <p>{text}</p>
+      <div className="button-container">
+        <button type="button"><b>수정</b></button>
+        <button type="button" onClick={() => onClickDelete(id)}><b>삭제</b></button>
+      </div>
+    </li>
+  );
+}
+
+export default TodoItem;
+>>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb

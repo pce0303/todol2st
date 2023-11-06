@@ -2,7 +2,11 @@ import { useState } from "react";
 import TodoItem from './TodoItem';
 import CreateTodo from './CreateTodo';
 
+<<<<<<< HEAD
 export interface Task {
+=======
+interface Task {
+>>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
   id:number;
   text:string;
   completed:boolean;
@@ -34,6 +38,7 @@ export default function TodoList () {
     setTodoList(todoList.filter((todoItem) => todoItem.id !== id));
   }
 
+<<<<<<< HEAD
   const updateTodo = (newTodo: Task): void => { //수정하기
     const newTodoList = todoList.map((item) => {
       if(item.id === newTodo.id) return newTodo;
@@ -53,6 +58,12 @@ export default function TodoList () {
         onClickDelete={deleteTodo}
         onClickUpdate={updateTodo}
         />
+=======
+  return (
+    <div className="todoListContainer">
+      {todoList.map((item) => (
+        <TodoItem id={item.id} text={item.text} completed={item.completed} onClickDelete={deleteTodo}/>
+>>>>>>> 4b11b296369766ea4bc7bba87f5cc588fcb4b6cb
       ))}
       <CreateTodo
         onChange={handleTextTyping}
